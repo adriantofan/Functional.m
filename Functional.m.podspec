@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "Functional.m is an extension for objective-c, that can be used to do functional programming."
   s.homepage     = "https://github.com/leuchtetgruen/Functional.m"
   s.license      = {
-    :type => 'MIT (example)',
+    :type => 'MIT ',
     :text => <<-LICENSE
               Copyright 2012 leuchtetgruen. 
               
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
               LICENSE
   }
   s.author       =  'Hannes Walz'
-  s.source       = { :git => "https://github.com/adriantofan/Functional.m.git" , :tag => "1.0.0"} 
-  s.source_files = '**.{h,m}'
+  s.source       = { :git => "https://github.com/adriantofan/Functional.m.git" , :tag =>  spec.version.to_s} 
+  s.source_files = "*.{h,m}"
   s.requires_arc = true
 end
